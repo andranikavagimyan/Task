@@ -119,21 +119,6 @@ function removeMax($matriz, $a, $b) {
 
         $matriz = createMatriz($employees);
 
-        // $matriz = [
-        //     [0,9,6,0],
-        //     [9,0,2,9],
-        //     [6,2,0,2],
-        //     [0,9,2,0],
-        // ];
-
-        // $matriz = [
-        //     [0,2,9,0],
-        //     [2,0,2,6],
-        //     [9,2,0,9],
-        //     [0,6,9,0],
-        // ];
-
-
         $count = count($matriz);
         $pair = 0;
         $ans = 0;
