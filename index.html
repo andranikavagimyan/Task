@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script type="text/javascript" defer="defer" src="js/ajax.js"></script>
+      <script type="text/javascript" defer="defer" src="js/upload.js"></script>
+   </head>
+   <body>
+      <div class="center">
+         <h1>Best Macthing.</h1>
+         <h2>Please upload your employee list.</h2>
+         <form action="" method="post" enctype="multipart/form-data"  id="myform">
+            <div class="input-file-container">  
+               <input class="input-file" id="my-file"  name="file" type="file">
+               <label tabindex="0" for="my-file" class="input-file-trigger">Select a file...</label>
+            </div>
+            <p class="file-return"></p>
+            <input type="button" id="but_upload" class="input-file-trigger" name="submit" value="Submit">
+         </form>
+         <table>
+            <thead>
+               <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Division</th>
+                  <th>Age</th>
+                  <th>Timezone</th>
+               </tr>
+            </thead>
+            <tbody></tbody>
+         </table>
+         <p class="matching" ></p>
+      </div>
+   </body>
+</html>
